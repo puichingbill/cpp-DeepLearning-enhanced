@@ -7,4 +7,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 find_package(Torch REQUIRED)
 
-option(DOWNLOAD_MNIST "D
+option(DOWNLOAD_MNIST "Download the MNIST dataset from the internet" ON)
+if (DOWNLOAD_MNIST)
+  message(STATUS "Downloading MNIST data
