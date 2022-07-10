@@ -9,4 +9,7 @@ find_package(Torch REQUIRED)
 
 option(DOWNLOAD_MNIST "Download the MNIST dataset from the internet" ON)
 if (DOWNLOAD_MNIST)
-  message(STATUS "Downloading MNIST data
+  message(STATUS "Downloading MNIST dataset")
+  execute_process(
+    COMMAND python ${CMAKE_CURRENT_LIST_DIR}/../tools/download_mnist.py
+      -d
