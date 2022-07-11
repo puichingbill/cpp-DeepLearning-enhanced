@@ -15,4 +15,8 @@ if (DOWNLOAD_MNIST)
       -d ${CMAKE_BINARY_DIR}/data
     ERROR_VARIABLE DOWNLOAD_ERROR)
   if (DOWNLOAD_ERROR)
-    message(FATAL_ER
+    message(FATAL_ERROR "Error downloading MNIST dataset: ${DOWNLOAD_ERROR}")
+  endif()
+endif()
+
+add_executable(mnist mni
