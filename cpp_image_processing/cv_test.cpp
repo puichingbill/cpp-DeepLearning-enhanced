@@ -20,4 +20,8 @@ int main()
     }
 
     resize(image_a, image_b, cv::Size(), 0.5, 0.5);
-    cvtColor(image_b, image_c, cv::C
+    cvtColor(image_b, image_c, cv::COLOR_BGR2GRAY);
+
+    imwrite("result.jpg", image_c);
+    // cv::namedWindow("Display Image", WINDOW_AUTOSIZE );
+    //
