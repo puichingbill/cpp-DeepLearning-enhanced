@@ -15,4 +15,9 @@ int main()
     image_a = cv::imread("IMG_1446.JPG", 1);
     if ( !image_a.data )
     {
-        cout << "No image data 
+        cout << "No image data \n";
+        return -1;
+    }
+
+    resize(image_a, image_b, cv::Size(), 0.5, 0.5);
+    cvtColor(image_b, image_c, cv::C
