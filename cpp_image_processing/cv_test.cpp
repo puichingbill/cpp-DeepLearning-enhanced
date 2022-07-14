@@ -24,4 +24,8 @@ int main()
 
     imwrite("result.jpg", image_c);
     // cv::namedWindow("Display Image", WINDOW_AUTOSIZE );
-    //
+    // cv::imshow("Display Image", image);
+    // cv::waitKey(0);
+
+    end_time = clock();
+    cout << float(end_t
