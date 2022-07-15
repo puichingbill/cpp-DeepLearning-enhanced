@@ -28,4 +28,9 @@ int main()
     // cv::waitKey(0);
 
     end_time = clock();
-    cout << float(end_t
+    cout << float(end_time - start_time) / CLOCKS_PER_SEC << " seconds" << endl;
+    return 0;
+}
+
+// worked on linux
+// sud
