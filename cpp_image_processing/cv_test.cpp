@@ -33,4 +33,8 @@ int main()
 }
 
 // worked on linux
-// sud
+// sudo apt install libopencv-dev
+// g++ cv_test.cpp -o build/myapp `pkg-config --libs --cflags opencv`
+
+
+// c
