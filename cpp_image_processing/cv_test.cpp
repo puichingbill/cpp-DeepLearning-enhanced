@@ -37,4 +37,8 @@ int main()
 // g++ cv_test.cpp -o build/myapp `pkg-config --libs --cflags opencv`
 
 
-// c
+// cmake -S ..
+// cmake --build . --config Release
+
+// ...
+// g++ cv_test.cpp -o myapp -std=c++11 `pkg-config --libs
