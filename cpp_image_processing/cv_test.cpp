@@ -41,4 +41,5 @@ int main()
 // cmake --build . --config Release
 
 // ...
-// g++ cv_test.cpp -o myapp -std=c++11 `pkg-config --libs
+// g++ cv_test.cpp -o myapp -std=c++11 `pkg-config --libs --cflags opencv4` -v --target=arm64
+// g++ -I/usr/local/include/opencv4 -L/usr/local/lib/opencv4 -g -o binary  cv_test.cpp
