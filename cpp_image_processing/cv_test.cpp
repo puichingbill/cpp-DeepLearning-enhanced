@@ -42,4 +42,5 @@ int main()
 
 // ...
 // g++ cv_test.cpp -o myapp -std=c++11 `pkg-config --libs --cflags opencv4` -v --target=arm64
-// g++ -I/usr/local/include/opencv4 -L/usr/local/lib/opencv4 -g -o binary  cv_test.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -l
+// g++ -I/usr/local/include/opencv4 -L/usr/local/lib/opencv4 -g -o binary  cv_test.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_stitching -std=c++11  --target=arm64-apple-darwin20.2.0 -stdlib=libc++ -lopencv_core
+
