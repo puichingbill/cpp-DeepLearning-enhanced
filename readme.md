@@ -4,3 +4,8 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 
 
 - Start by installing dependencies:
+```shell 
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install libgtk2.0-dev 
+        
