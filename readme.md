@@ -11,4 +11,8 @@ This is your guide if you're setting up an OpenCV project for the first time. No
         sudo apt-get install pkg-config
 ```
 
-- To compile OpenCV you will need a C++ compiler. Also, OpenCV uses the CMake build configu
+- To compile OpenCV you will need a C++ compiler. Also, OpenCV uses the CMake build configuration tool:
+```shell
+    sudo apt install -y g++
+    sudo apt-get install cmake
+    sudo apt-get install make
