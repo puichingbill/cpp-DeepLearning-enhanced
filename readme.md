@@ -8,4 +8,7 @@ This is your guide if you're setting up an OpenCV project for the first time. No
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install libgtk2.0-dev 
-        
+        sudo apt-get install pkg-config
+```
+
+- To compile OpenCV you will need a C++ compiler. Also, OpenCV uses the CMake build configu
