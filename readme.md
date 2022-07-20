@@ -26,4 +26,7 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 
 - Create a build directory for opencv:
 ```shell
-   
+    mkdir -p build && cd build
+```
+
+- Configure and generate build scripts for the preferred build syste
