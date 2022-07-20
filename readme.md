@@ -16,3 +16,8 @@ This is your guide if you're setting up an OpenCV project for the first time. No
     sudo apt install -y g++
     sudo apt-get install cmake
     sudo apt-get install make
+```
+
+- Next, clone the opencv's repository using git:
+```shell
+    git clone https://github.com/opencv/opencv.
