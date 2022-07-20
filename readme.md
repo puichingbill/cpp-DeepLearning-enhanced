@@ -20,4 +20,10 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 
 - Next, clone the opencv's repository using git:
 ```shell
-    git clone https://github.com/opencv/opencv.
+    git clone https://github.com/opencv/opencv.git
+    git clone https://github.com/opencv/opencv_contrib.git
+```
+
+- Create a build directory for opencv:
+```shell
+   
