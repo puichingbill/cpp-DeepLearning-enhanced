@@ -29,4 +29,9 @@ This is your guide if you're setting up an OpenCV project for the first time. No
     mkdir -p build && cd build
 ```
 
-- Configure and generate build scripts for the preferred build syste
+- Configure and generate build scripts for the preferred build system:
+```shell
+    cmake -DOPENCV_EXTRA_MODULES_PATH=../opencv_contrib/modules ../opencv
+```
+
+- Ru
