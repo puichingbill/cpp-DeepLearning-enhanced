@@ -39,4 +39,9 @@ This is your guide if you're setting up an OpenCV project for the first time. No
     make -j4
 ```
 
-- The installation process involves copying files to predefined locations and doi
+- The installation process involves copying files to predefined locations and doing minor patching:
+```shell
+    sudo make install
+```
+
+- Finally, you are ready! Now all you have to do 
