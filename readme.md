@@ -36,3 +36,7 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 
 - Run the actual compilation process. 4 denotes the number of used processor cores.
 ```shell
+    make -j4
+```
+
+- The installation process involves copying files to predefined locations and doi
