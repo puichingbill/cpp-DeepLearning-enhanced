@@ -51,4 +51,10 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 ### Build and run executable file
 - This will build your executable file:
 ```shell
-   
+    cmake -S ..
+    cmake --build . --config Release
+```
+
+- Run the executable file:
+```shell
+    ./<file nam
