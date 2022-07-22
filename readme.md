@@ -44,4 +44,4 @@ This is your guide if you're setting up an OpenCV project for the first time. No
     sudo make install
 ```
 
-- Finally, you are ready! Now all you have to do 
+- Finally, you are ready! Now all you have to do is generate the executable file and run it. Note that you may remove the build folder because you don't need it a
