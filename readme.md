@@ -57,4 +57,8 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 
 - Run the executable file:
 ```shell
-    ./<file nam
+    ./<file name>
+```
+
+## INSTALLING C++ DISTRIBUTIONS OF PYTORCH
+Start by downloading libtorch from <a href='https://p
