@@ -61,4 +61,7 @@ This is your guide if you're setting up an OpenCV project for the first time. No
 ```
 
 ## INSTALLING C++ DISTRIBUTIONS OF PYTORCH
-Start by downloading libtorch from <a href='https://p
+Start by downloading libtorch from <a href='https://pytorch.org/'>pytorch</a>, and then unzip it.
+
+
+- Unlike opencv, it's easier to work with libtorch as you don't need to insta
