@@ -68,4 +68,7 @@ Start by downloading libtorch from <a href='https://pytorch.org/'>pytorch</a>, a
 ```shell
         mkdir build
         cd build
-        cmake -DCMAKE_PREFI
+        cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/libtorch ..
+```
+- Run the following commands to build and run executable file:
+``
